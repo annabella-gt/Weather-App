@@ -1,0 +1,82 @@
+body {
+  background: #fedcdc;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+h1 {
+  font-size: 38px;
+}
+footer {
+  text-align: center;
+  padding: 14px;
+  color: grey;
+}
+
+#container {
+  background: #fff2f2;
+  margin: 60px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgb(0, 0, 0, 0.2);
+  padding: 20px 40px;
+}
+#current-details {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+#current-details strong {
+  color: #f65282;
+}
+#search-box {
+  margin: 30px 10px;
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #fbcccc;
+  border-radius: 10px;
+}
+#search-form {
+  margin: 0 60px;
+}
+#search-button {
+  height: 40px;
+  margin: 30px auto;
+  font-size: 20px;
+  padding: 5px 12px;
+  background: #ca8787;
+  color: white;
+  border: 1px solid #a87676;
+  border-radius: 10px;
+}
+#results {
+  display: flex;
+  justify-content: space-between;
+}
+#temperature {
+  font-size: 48px;
+  margin-top: 25px;
+}
+#temperature-icon {
+  position: relative;
+  top: -13px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+#temperature-value {
+  font-size: 80px;
+  font-weight: bolder;
+}
+#temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -36px;
+}
+.line {
+  margin: 0 20px;
+  border-color: rgb(253, 232, 232);
+  border-style: double;
+}
