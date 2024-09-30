@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            id="search-box"
+            placeholder="Enter a city..."
+            autofocus="on"
+            autocomplete="on"
+            required
+          />
+          <input type="submit" id="search-button" value="Search" />
+        </form>
+      </header>
+      <hr class="line" />
+      <main>
+        <div id="results">
+          <div>
+            <h1></h1>
+            <p id="current-details">
+              <span id="date-time"></span>, sunny
+              <br />
+              Humidity: <strong>53%</strong>, Wind:
+              <strong>8 km/h</strong>
+            </p>
+          </div>
+          <div id="temperature">
+            <span id="temperature-icon">☀️</span
+            ><span id="temperature-value"></span
+            ><span id="temperature-unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <hr class="line" />
+      <footer>
+        This project was coded by
+        <a href="https://github.com/annabella-gt" target="_blank"
+          >Annabella Kovacs</a
+        >
+        and is on
+        <a href="https://github.com/annabella-gt/Weather-App" target="_blank"
+          >GitHub</a
+        >
+        and hosted on <a href="" target="_blank">Netlify</a>.
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
